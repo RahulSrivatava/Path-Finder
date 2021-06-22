@@ -98,7 +98,7 @@ onload = function() {
             }
         }
         // Setting the new values of global variables
-        src = Math.floor(Math.random()*cities.length);
+        src = Math.floor(Math.random()*5);
         dst = V;
         if(src===dst){
             src=1;
