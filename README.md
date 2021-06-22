@@ -1,2 +1,2 @@
 # Shortest Path-Finder
-#Using Djikstra Alogrithm
+#Using Dijkstra Alogrithm
