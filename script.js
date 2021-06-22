@@ -100,9 +100,9 @@ onload = function() {
         // Setting the new values of global variables
         src = Math.floor(Math.random()*5);
         dst = V;
-        if(src===dst){
-            src=1;
-        }
+        // if(src===dst){
+        //     src=1;
+        // }
         curr_data = {
             nodes: nodes,
             edges: edges
