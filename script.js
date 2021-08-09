@@ -98,8 +98,9 @@ onload = function() {
             }
         }
         // Setting the new values of global variables
-        src = 1;
+        src = Math.floor(Math.random()*5)%13;
         dst = V;
+        if(src==0)src=1;
         // if(src===dst){
         //     src=1;
         // }
